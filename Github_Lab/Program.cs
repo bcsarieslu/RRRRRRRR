@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Github_Lab.Model;
+using System;
 
 namespace Github_Lab
 {
@@ -6,7 +7,13 @@ namespace Github_Lab
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Animal cat = new Cat();
+            cat.Move();
+
+            Animal bird = new Bird();
+            bird.Move();
+
+            Console.WriteLine("Animal World!");
         }
     }
 }
