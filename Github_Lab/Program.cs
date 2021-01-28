@@ -15,6 +15,8 @@ namespace Github_Lab
             bird.Move();
             bird.Move();
 
+            cat.Move();
+
             Console.WriteLine("Animal World!");
         }
     }
